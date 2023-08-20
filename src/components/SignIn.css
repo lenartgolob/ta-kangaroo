@@ -1,0 +1,77 @@
+.form-container {
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+  }
+  
+  .form-container form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+  }
+  
+  .form-container .input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid #250e0e;
+  }
+  
+  .form-container .check-box {
+    height: 20px;
+    margin-bottom: 2rem;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+    width: 20px;
+    display: flex;
+  }
+
+  .remember-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 85%;
+  }
+
+  .form-container button {
+    display: inline;
+  }
+
+  .ExtraContainer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 80%;
+  }
+
+  .ExtraContainer a {
+    color: #0099cc;
+    text-decoration-color:  #0099cc;
+  }
+
+  @media screen and (max-width: 850px) {
+    .form-container {
+        margin: 4rem 2rem;
+      }
+      .form-container form {
+        padding-top: 2rem;
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .form-container {
+      margin: 4rem 2rem;
+    }
+    .form-container form {
+      padding-top: 2rem;
+      width: 98%;
+    }
+    .ExtraContainer {
+        font-size: 72%;
+    }
+  }
+  

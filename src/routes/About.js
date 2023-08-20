@@ -3,7 +3,7 @@ import HomeHero from "../components/HomeHero";
 import AboutUs from "../components/AboutUs";
 import Footer from "../components/Footer";
 // import AboutImg from "../assets/night.jpg";
-import AboutImg from "../assets/lenart1.jpeg";
+import AboutImg from "../assets/lenart4.jpeg";
 
 
 function About() {
