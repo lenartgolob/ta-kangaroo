@@ -3,14 +3,14 @@ import HomeHero from "../components/HomeHero";
 import AboutImg from "../assets/landing1.jpg";
 import Footer from "../components/Footer";
 
-function EssentialBudget() {
+function Custom() {
   return (
     <>
       <Navbar />
       <HomeHero
         cName="hero-mid"
         heroImg={AboutImg}
-        title="Essential Budget"
+        title="Custom"
         btnClass="hide"
       />
 
@@ -19,4 +19,4 @@ function EssentialBudget() {
   );
 }
 
-export default EssentialBudget;
+export default Custom;

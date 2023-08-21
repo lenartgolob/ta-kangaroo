@@ -53,7 +53,17 @@
     text-decoration-color:  #0099cc;
   }
 
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
   @media screen and (max-width: 850px) {
+    .name-container input {
+      width: 48%;
+    }
+
     .form-container {
         margin: 4rem 2rem;
       }

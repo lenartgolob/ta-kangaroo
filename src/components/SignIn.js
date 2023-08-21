@@ -16,8 +16,8 @@ function SignIn() {
         </div>
         <button>Sign In</button>
           <div className="ExtraContainer">
-            <Link to="/new"><p>Forgot password?</p></Link>
-            <Link to="/new"><p>Don't have an account? Sign up</p></Link>
+            <Link to="/reset-password"><p>Forgot password?</p></Link>
+            <Link to="/register"><p>Don't have an account? Sign up</p></Link>
           </div>
         </form>
       </div>

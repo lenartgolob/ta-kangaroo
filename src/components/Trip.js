@@ -20,28 +20,33 @@ function Trip() {
           Southeast Asia and Oceania between the Indian and Pacific oceans. It
           consists of over 17,000 islands, including Sumatra, Java, Sulawesi,
           and parts of Borneo and New Guinea."
+          redirect="/essential-budget"
         />
         <TripData
           image={EssentialComfort}
           heading="Essentials Comfort"
           text="Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences."
+          redirect="/essential-comfort"
         />
         <TripData
           image={PlusBudget}
           heading="+ Budget"
           text="France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
+          redirect="/plus-budget"
         />
 
         <TripData
           image={PlusComfort}
           heading="+ Comfort"
           text="France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
+          redirect="/plus-comfort"
         />
 
         <TripData
           image={Custom}
           heading="Custom"
           text="France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower."
+          redirect="/custom"
         />
       </div>
     </div>
