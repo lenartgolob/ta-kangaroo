@@ -1,4 +1,5 @@
 import "./HomeHeroStyles.css";
+import Arrow from "../assets/arrow.png";
 
 function HomeHero(props) {
   return (
@@ -7,14 +8,9 @@ function HomeHero(props) {
         <img src={props.heroImg} alt="heroImg" />
         <div className="hero-text">
           <h1>{props.title}</h1>
-          <p>{props.text}</p>
-          <a className={props.btnClass} href={props.url}>
-            {props.buttonText}
-          </a>
+          {/* <p>{props.text}</p> */}
+          <a href="#trip-highlights"><img className={props.arrow} src={Arrow} /></a>
         </div>
-        {/* <h1>Your Journey Your Story</h1>
-        <p>Choose Your Favourite Destination.</p>
-        <a href="index.html">Travel Plan</a> */}
       </div>
     </>
   );

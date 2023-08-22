@@ -11,7 +11,7 @@ function PlusBudget() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Plus Budget"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
 
       <Footer />

@@ -12,7 +12,7 @@ function Service() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Service"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
       <Trip />
       <Footer />

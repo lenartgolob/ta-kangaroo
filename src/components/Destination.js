@@ -18,7 +18,7 @@ import DestinationData from "./DestinationData";
 const Destination = () => {
   return (
     <>
-      <div className="destination">
+      <div id="trip-highlights" className="destination">
         <h1>Trip Highlights</h1>
         <p>Tours give you the opportunity to see a lot, within a time frame.</p>
         <DestinationData

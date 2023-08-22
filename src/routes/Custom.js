@@ -11,7 +11,7 @@ function Custom() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Custom"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
 
       <Footer />

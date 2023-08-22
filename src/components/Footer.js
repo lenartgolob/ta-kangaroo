@@ -1,4 +1,5 @@
 import "./FooterStyles.css";
+import Logo from "../assets/logo-white.png";
 
 const Footer = () => {
   return (
@@ -6,7 +7,8 @@ const Footer = () => {
       <div className="footer">
         <div className="top">
           <div>
-            <h1>Trippy</h1>
+            {/* <h1>Trippy</h1> */}
+            <img className="logo-footer" src={Logo} alt="Logo" />
             <p>Choose your favourite destination.</p>
           </div>
           <div>

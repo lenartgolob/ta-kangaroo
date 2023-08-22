@@ -17,6 +17,13 @@
   z-index: 9999;
 }
 
+.logo {
+  height: 55px;
+  width: 235px;
+  justify-self: start;
+  margin-top: 13px;
+}
+
 .navbar-logo {
   color: #222;
   font-size: 2rem;

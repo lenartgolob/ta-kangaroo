@@ -12,7 +12,7 @@ function Contact() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Contact"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
       <ContactForm />
       <Footer />

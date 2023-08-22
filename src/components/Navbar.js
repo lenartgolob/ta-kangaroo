@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 import "./NavbarStyles.css";
+import Logo from "../assets/logo-horizontal.png";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -12,7 +13,8 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Trippy</h1>
+        {/* <h1 className="navbar-logo">Kangaroo</h1> */}
+        <a href="/"><img className="logo" src={Logo} alt="Logo" /></a>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
             className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}

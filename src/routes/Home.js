@@ -14,10 +14,10 @@ function Home() {
         cName="hero"
         heroImg={Landing}
         title="Your Journey Your Story"
-        text="Choose Your Favourite Destination."
-        btnClass="show"
-        buttonText="Travel Plan"
-        url="/"
+        // text="Choose Your Favourite Destination."
+        arrow="arrow"
+        // buttonText="Travel Plan"
+        // url="/"
       />
       <Destination />
       <Trip />

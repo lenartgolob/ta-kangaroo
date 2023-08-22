@@ -11,7 +11,7 @@ function EssentialBudget() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Essential Budget"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
 
       <Footer />

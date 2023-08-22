@@ -11,7 +11,7 @@ function EssentialComfort() {
         cName="hero-mid"
         heroImg={AboutImg}
         title="Essential Comfort"
-        btnClass="hide"
+        arrow="arrow-hide"
       />
 
       <Footer />

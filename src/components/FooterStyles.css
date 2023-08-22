@@ -4,6 +4,11 @@
   padding: 4rem 6rem;
 }
 
+.logo-footer {
+  width: 165px;
+  height: 65px;
+}
+
 .top {
   display: flex;
   align-items: center;
